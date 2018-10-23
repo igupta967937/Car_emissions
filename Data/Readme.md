@@ -1,1 +1,1 @@
-This file contains the data sets used for modelling
+This folder contains the data sets used for modelling
