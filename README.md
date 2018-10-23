@@ -10,6 +10,6 @@ Package requirements:
  - numpy
  - scipy
  - itertools
- - sklearn (.model_selection, sklearn.linear_model
+ - sklearn (.model_selection, .linear_model
 ## Multiple linear regressions
  - same as SLR
