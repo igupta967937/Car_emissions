@@ -16,12 +16,12 @@ _mailinglist
 .idea/
 docs/_build/
 .vscode
+API_app/data?
 
-# Coverage reports
 htmlcov/
 .coverage
 .coverage.*
 *,cover
 *.yml
-experiments/**
+experiments
 *.csv
