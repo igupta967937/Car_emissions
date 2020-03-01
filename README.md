@@ -24,8 +24,8 @@ python api_app.py
 ```
 - In the browser, the app should be running on http://localhost:5000 and should display as follows:
 
-![GUI sample](https://github.com/wgova/Car_emissions/blob/master/app/img/app_GUI.png)
+![GUI sample](https://github.com/wgova/Car_emissions/blob/master/API_app/img/app_GUI.png)
 
 After entering the required values, press "Calculate prediction" and something similar to the below should be displayed:
 
-![Results sample](https://github.com/wgova/Car_emissions/blob/master/app/img/app_GUI.png)
+![Results sample](https://github.com/wgova/Car_emissions/blob/master/app/img/APi_app/app_GUI.png)
