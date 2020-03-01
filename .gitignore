@@ -23,5 +23,6 @@ htmlcov/
 .coverage.*
 *,cover
 *.yml
+data/
 
-experiments/*
+experiments/
