@@ -5,6 +5,7 @@ Machine learning models to predict car emissions for new car models
 The best independent variables were selected from correlation scores, p-values and multi-collinearity corrections
 
 ## Flask app
+![Project structure](https://github.com/wgova/Car_emissions/blob/master/app/img/APi_app/app_GUI.png)
 
 ### To run project
 - If running the project for the first time or new data is acquired, generate a serialized version of the model which will be stored as 'model.pkl' file
@@ -28,4 +29,4 @@ python api_app.py
 
 After entering the required values, press "Calculate prediction" and something similar to the below should be displayed:
 
-![Results sample](https://github.com/wgova/Car_emissions/blob/master/app/img/APi_app/app_GUI.png)
+![Results sample](https://github.com/wgova/Car_emissions/blob/master/app/img/APi_app/prediction.png)
