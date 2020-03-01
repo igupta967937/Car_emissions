@@ -6,33 +6,26 @@ The best independent variables were selected from correlation scores, p-values a
 
 ## Flask app
 
-### Running the project
-If running the project for the first time or new data is acquired, generate a serialized version of the model which will be stored as 'model.pkl' file
+### To run project
+- If running the project for the first time or new data is acquired, generate a serialized version of the model which will be stored as 'model.pkl' file
 
 ```
-python model.py
+python mlr_model.py
 ```
-
-This would create a 
-
-2. Run app.py using below command to start Flask API
+- Check that the model is setup properly by running:
 ```
-python app.py
+python predict.py
 ```
-By default, flask will run on port 5000.
+This script can also be used to send direct POST requests to FLask API
 
-3. Navigate to URL http://localhost:5000
-
-You should be able to view the homepage as below :
-![alt text](http://www.thepythonblog.com/wp-content/uploads/2019/02/Homepage.png)
-
-Enter valid numerical values in all 3 input boxes and hit Predict.
-
-If everything goes well, you should  be able to see the predcited salary vaule on the HTML page!
-![alt text](http://www.thepythonblog.com/wp-content/uploads/2019/02/Result.png)
-
-4. You can also send direct POST requests to FLask API using Python's inbuilt request module
-Run the beow command to send the request with some pre-popuated values -
+- Fire up the API to run the GUI on port 5000:
 ```
-python request.py
+python api_app.py
 ```
+- In the browser, the app should be running on http://localhost:5000 and should display as follows:
+
+![alt text](https://github.com/wgova/Car_emissions/blob/master/app/img/app_GUI.png)
+
+After entering the required values, press "Calculate prediction" and something similar to the below should be displayed:
+
+![Results sample](https://github.com/wgova/Car_emissions/blob/master/app/img/app_GUI.png)
