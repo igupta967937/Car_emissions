@@ -22,5 +22,6 @@ htmlcov/
 .coverage
 .coverage.*
 *,cover
+*.yml
 
 experiments/*
