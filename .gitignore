@@ -57,7 +57,7 @@ local_settings.py
 db.sqlite3
 
 # Flask stuff:
-instance/
+#instance/
 .webassets-cache
 
 # Scrapy stuff:
@@ -106,8 +106,8 @@ venv.bak/
 # Jupyter cache 
 gitignore/
 env/*
-data/
-experiments/
+Data/*
+experiments/*
 keys/*
 *.xlsx
 *.xls
